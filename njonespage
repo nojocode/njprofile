@@ -2,9 +2,117 @@
 
 <head>
     <style>
+        /* google fonts */
+        
+        @import url(https://fonts.googleapis.com/css2?family=Arvo:wght@700&family=Indie+Flower&family=Playfair+Display:wght@600&family=Righteous&family=Rowdies&display=swap);
+        * {
+            transition: all 0.3s ease;
+        }
+        
+        body {
+            font-family: "helvetica", sans-serif;
+            font-weight: bold;
+            font-size: 100%;
+            color: white;
+            background: black;
+        }
+        
+        .wrapper {
+            width: 10%;
+            margin: auto;
+            height: 10vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .m:hover,
+        .e:hover,
+        .g:hover,
+        .a:hover,
+        .n:hover,
+        .ex:hover {
+            padding: 0 5px;
+            cursor: none;
+        }
+        
+        .m {
+            color: white;
+            font-family: "Righteous", cursive;
+        }
+        
+        .e {
+            color: white;
+            font-family: "Indie Flower", cursive;
+        }
+        
+        .e:hover {
+            color: yellow;
+        }
+        
+        .g {
+            color: white;
+            font-family: "Arvo", serif;
+        }
+        
+        .a {
+            color: white;
+            font-family: "Playfair Display", serif;
+        }
+        
+        .n {
+            color: white;
+            font-family: "Rowdies", cursive;
+        }
+        
+        .m:hover {
+            color: black;
+            background-color: white;
+            font-size: 1rem;
+        }
+        
+        .e:hover {
+            color: black;
+            background-color: white;
+            font-size: 1rem;
+        }
+        
+        .g:hover {
+            color: black;
+            background-color: white;
+            font-size: 1rem;
+        }
+        
+        .a:hover {
+            color: black;
+            background-color: white;
+            font-size: 1rem;
+        }
+        
+        .n:hover {
+            color: black;
+            background-color: white;
+            font-size: 1rem;
+        }
+        
+        .ex {
+            color: white;
+        }
+        
+        .ex:hover {
+            color: black;
+            background-color: white;
+            font-size: 1rem;
+        }
+    </style>
+    <style>
         Body {
-            background: #000000;
+            background-color: goldenrod;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(to bottom, rgb(0, 0, 0), #768);
+            flex-direction: column;
+            display: flex;
+            margin: 0;
         }
         
         Div {
@@ -12,82 +120,212 @@
             text-align: center;
             color: dodgerblue;
             font-family: 'Helvetica Nueu';
+            font-size: 24px;
+            height: 100%;
+            box-sizing: border-box;
         }
         
-        #Box {
+        div#Box {
             width: 50px;
             height: 50px;
-            padding: 100px;
+            padding: 8px 0 0 0;
             align-items: center;
             color: #4e4e4e;
+            font-size: 24px;
+            height: 100%;
+            box-sizing: border-box;
         }
         
         Button {
+            margin: 10px;
             width: 80px;
             height: 80px;
-            padding: 10px;
+            padding: 8px 0 0 0;
             font-family: 'IMPACT';
             color: gray;
+            font-size: 14px;
+            height: 10%;
+            box-sizing: border-box;
         }
         
         h1 {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-underline-position: below;
-            color: indigo;
+            color: rgb(0, 217, 255);
         }
     </style>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background: ;
+        }
+        
+        .face {
+            position: relative;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: #ffcc09;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .face::before {
+            content: '';
+            position: absolute;
+            top: 180px;
+            width: 150px;
+            height: 70px;
+            background: #b57700;
+            left: 74.3px;
+            border-bottom-left-radius: 70px;
+            border-bottom-right-radius: 70px;
+            transition: 0.5s;
+        }
+        
+        .face:hover::before {
+            top: 210px;
+            width: 150px;
+            height: 20px;
+            background: #b57700;
+            left: 74.3px;
+            border-bottom-left-radius: 0px;
+            border-bottom-right-radius: 0px;
+        }
+        
+        .eyes {
+            position: relative;
+            top: 58px;
+            left: 40px;
+            display: flex;
+        }
+        
+        .eyes .eye {
+            position: relative;
+            width: 80px;
+            height: 80px;
+            display: block;
+            background: #fff;
+            margin: 0 15px;
+            border-radius: 50%;
+        }
+        
+        .eyes .eye::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 25px;
+            transform: translate(-50%, -50%);
+            width: 40px;
+            height: 40px;
+            background: #333;
+            border-radius: 50%;
+        }
+    </style>
+
     <title>NJ Jones Tech Profile Page</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="m">
+            J
+        </div>
+        <div class="e">
+            O
+        </div>
+        <div class="g">
+            N
+        </div>
+        <div class="a">
+            E
+        </div>
+        <div class="n">
+            S
+        </div>
+        <div class="ex">
+            !
+        </div>
+
+    </div>
 
     <body>
-        <center>
-            <button><a href="#">HOME</a>
-            </button>
-            <div>
-                <p>
-                    <h1>Thank you everyone for visiting my profile page.</h1>
-
-                </p>
+        <div class="face">
+            <div class="eyes">
+                <div class="eye"></div>
+                <div class="eye"></div>
             </div>
-            <br>
-
-            <div class="box">
-                <border color="#000000">
-                    </font><img src="profilepic.jpg" , width="10%"></border>
-            </div>
-            <font color="#ffffff">
-                <p style="color:khaki;">My name is Noah Jones and I am a Elementary School computer teacher. I have 10 years of experience working as a teacher.
-                    <BR>I also work as a digital media artist and designer, I have been working in the area of visual arts and graphic design for over 20 years.</p>
-            </font>
-            </div>
-            <br>
-            <h2>
-                <font color="#dbdbdb">MY LIKES</font>
-            </h2>
-            <table style="width:20%">
-                <font color="#dbdbdb">
-                    <tr>
-                        <ul>
-                            <li>Art</li>
-                            <li>Film</li>
-                            <li>Design</li>
-                            <li>Technology</li>
-                            <li>Martial Arts</li>
-                            <li>Traveling</li>
-                            <li>The B</li>
-                        </ul>
-                    </tr>
-                </font>
-            </table>
-
-        </center>
-
-
-
-
-
+        </div>
     </body>
+    <script>
+        document.querySelector('body').addEventListener('mousemove', eyeball);
+
+        function eyeball() {
+            var eye = document.querySelectorAll('.eye');
+            eye.forEach(function(eye) {
+                let x = (eye.getBoundingClientRect().left) + (eye.clientWidth / 2);
+                let y = (eye.getBoundingClientRect().top) + (eye.clientHeight / 2);
+                let radian = Math.atan2(event.pageX - x, event.pageY - y);
+                let rot = (radian * (180 / Math.PI) * -1) + 270;
+                eye.style.transform = "rotate(" + rot + "deg)"
+            })
+        }
+    </script>
+    <center>
+        <button><a href="#">HOME</a>
+            </button>
+        <div>
+            <p>
+                <h1>Thank you, for visiting my profile page.</h1>
+
+            </p>
+        </div>
+        <br>
+
+        <div class="box">
+            <border color="#000000">
+                </font><img src="profilepic.jpg" , width="10%"></border>
+        </div>
+        <font color="#ffffff">
+            <p style="color:khaki;">My name is Noah Jones and I am a Elementary School computer teacher. I have 10 years of experience working as a teacher.
+                <BR>I also work as a digital media artist and designer, I have been working in the area of visual arts and graphic design for over 20 years.</p>
+        </font>
+        </div>
+        <br>
+        <h2>
+            <font color="#dbdbdb">MY LIKES</font>
+        </h2>
+        <table style="width:20%">
+            <font color="#dbdbdb">
+                <tr>
+                    <ul>
+                        <ol>Art</ol>
+                        <ol>Film</ol>
+                        <ol>Design</ol>
+                        <ol>Technology</ol>
+                        <ol>Martial Arts</ol>
+                        <ol>Traveling</ol>
+                        <ol>The Beach</ol>
+                    </ul>
+                </tr>
+            </font>
+        </table>
+        <br>
+
+    </center>
+
+</body>
+<footer>NJ TECHIE TIME</footer>
 
 
 
-
-</head>
+</html>
