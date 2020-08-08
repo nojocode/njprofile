@@ -106,7 +106,7 @@
         }
     </style>
     <style>
-        Body {
+        body {
             background-color: goldenrod;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(to bottom, rgb(0, 0, 0), #768);
@@ -115,7 +115,7 @@
             margin: 0;
         }
         
-        Div {
+        div {
             padding: 10px;
             text-align: center;
             color: dodgerblue;
@@ -136,7 +136,7 @@
             box-sizing: border-box;
         }
         
-        Button {
+        button {
             margin: 10px;
             width: 80px;
             height: 80px;
@@ -146,12 +146,18 @@
             font-size: 14px;
             height: 10%;
             box-sizing: border-box;
+            align: center;
         }
         
         h1 {
             font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
             text-underline-position: below;
             color: rgb(0, 217, 255);
+        }
+        
+        section {
+            align: center;
+            text-align: center;
         }
     </style>
     <style>
@@ -280,8 +286,8 @@
             })
         }
     </script>
-    <center>
-        <button><a href="http://wwbot-wedev.surge.sh">HOME</a>
+    <section>
+        <button><a href="http://www.bot-wedev.surge.sh">HOME</a>
             </button>
         <button><a href="http://www.noahjones.net">MY RESUME</a>
             </button>
@@ -293,56 +299,57 @@
 
             </p>
         </div>
-        <br>
+        <p>
 
-        <div class="box">
-            <border color="#000000">
-                </font><img src="profilepic.jpg" , width="10%"></border>
-        </div>
-        <font color="#ffffff">
-            <p style="color:khaki;">My name is Noah Jones and I am a Elementary School computer teacher. I have 10 years of experience working as a teacher.
-                <BR>I also work as a digital media artist and designer, I have been working in the area of visual arts and graphic design for over 20 years.</p>
-            <p style="color: orangered;">Artist Statement: Since I was a child the creative process has been a form of meditation. I like to take the time to visualize and plan out a new and original way that I can create the images I see in my mind. When creating these images I
-                like to practice my skills in different mediums, such as clay, graphic design, photography, painting, or film. I make sure to capture my feelings and emotions leaving out any fears of expressing my true self. My goal is to transfer my
-                thoughts to my work for others to observe and investigate in hopes to spark a new perspective.</p><br>
-            <p style="color: gold;"><b>Teacher Philosophy:</b> As an art teacher I hope to reach every student and push them to be more visually creative. Art is a great way of helping people understand new perspectives and ideas in life. In my art lessons I provide a relation
-                to the students and their goals as an artist. I believe that as an art teacher it is important to show that you understand the problems of the students and provide the positive criticism to help the students grow in the art class. Their
-                are a lot of students that are not getting a creative outlet in school. I believe that the students that are not getting creative arts classes are not getting the chance to learn and practice using their creative skills and imagination.
-                I believe that everyone needs some source of expression in their daily routine.</p>
-        </font>
-        </div>
-        <br>
-        <h2>
-            <font color="000000">MY LIKES</font>
-        </h2>
-        <table style="width:20%">
-            <font color="#dbdbdb">
-                <tr>
-                    <ul>
-                        <ol>Art</ol>
-                        <ol>Film</ol>
-                        <ol>Design</ol>
-                        <ol>Technology</ol>
-                        <ol>Martial Arts</ol>
-                        <ol>Traveling</ol>
-                        <ol>The Beach</ol>
-                    </ul>
-                </tr>
+            <div class="box">
+                <border color="#000000">
+                    </font><img src="profilepic.jpg" , width="10%"></border>
+            </div>
+            <font color="#ffffff">
+                <p style="color:khaki;">My name is Noah Jones and I am a Elementary School computer teacher. I have 10 years of experience working as a teacher.
+                    <BR>I also work as a digital media artist and designer, I have been working in the area of visual arts and graphic design for over 20 years.</p>
+                <p style="color: orangered;">Artist Statement: Since I was a child the creative process has been a form of meditation. I like to take the time to visualize and plan out a new and original way that I can create the images I see in my mind. When creating these images
+                    I like to practice my skills in different mediums, such as clay, graphic design, photography, painting, or film. I make sure to capture my feelings and emotions leaving out any fears of expressing my true self. My goal is to transfer
+                    my thoughts to my work for others to observe and investigate in hopes to spark a new perspective.</p><br>
+                <p style="color: gold;"><b>Teacher Philosophy:</b> As an art teacher I hope to reach every student and push them to be more visually creative. Art is a great way of helping people understand new perspectives and ideas in life. In my art lessons I provide a relation
+                    to the students and their goals as an artist. I believe that as an art teacher it is important to show that you understand the problems of the students and provide the positive criticism to help the students grow in the art class.
+                    Their are a lot of students that are not getting a creative outlet in school. I believe that the students that are not getting creative arts classes are not getting the chance to learn and practice using their creative skills and imagination.
+                    I believe that everyone needs some source of expression in their daily routine.</p>
             </font>
-        </table>
-        <br>
-        <table>
-            <tr><b>My favorite things to do</b>
-                <br>
-                <ul>
-                    <li>Swimming</li>
-                    <li>Painting</li>
-                    <li>Boxing</li>
-                </ul>
-            </tr>
-        </table>
-    </center>
-    <Br>
+            </div>
+            <br>
+            <h2>
+                <font color="000000">MY LIKES</font>
+            </h2>
+            <table style="width:20%">
+                <font color="#dbdbdb">
+                    <tr>
+                        <ul>
+                            <ol>Art</ol>
+                            <ol>Film</ol>
+                            <ol>Design</ol>
+                            <ol>Technology</ol>
+                            <ol>Martial Arts</ol>
+                            <ol>Traveling</ol>
+                            <ol>The Beach</ol>
+                        </ul>
+                    </tr>
+                </font>
+            </table>
+            <p>
+                <table>
+                    <tr><b>My favorite things to do</b>
+                        <p>
+                            <ul>
+                                <li>Swimming</li>
+                                <li>Painting</li>
+                                <li>Boxing</li>
+                            </ul>
+                    </tr>
+                </table>
+
+                <p>
+    </section>
 </body>
 <footer>NJ TECHIE TIME</footer>
 
